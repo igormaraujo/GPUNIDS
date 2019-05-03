@@ -1,0 +1,5 @@
+# A Graphic Processing Unit Network Intrusion Detection System in Network Function Virtualization Environment.
+
+*Abstract:* Network Function Virtualization (NFV) replaces the hardware that supports packet processing in network operation from specific by general-purpose ones, reducing costs and bringing more flexibility and agility to the network operation. However, this shift can cause performance losses due to the non-optimal packet processing capabilities of the general-purpose hardware. This work analyzes the benefits of using Graphics Processing Units (GPUs) to support the execution of an Intrusion Detection System (IDS) as a Virtualized Network Function (VNF). The use of GPUs in VNFs has a great potential to increase throughput, but the delay incurred might be an issue for some functions. Our experiments were performed using Deep Packet Inspection (DPI) which performs IDS deployed as a VNF. Results show that the throughput of the system can be increased with a GPU assist and reduce the CPU resources usage, that possibility execute more VNFs in this machine.
+
+###### *Preprint submitted to Computer Communications*
