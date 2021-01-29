@@ -35,7 +35,7 @@ cd build
 cmake -D VERBOSE=1 ..
 make
 ``` 
-The executable with named "GPUNIDS" will be generated at build folder
+The executable named "GPUNIDS" will be generated at build folder
 
 ## Usage
 
