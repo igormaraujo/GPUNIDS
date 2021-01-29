@@ -38,22 +38,23 @@ make
 The executable named "GPUNIDS" will be generated at build folder
 
 ## Usage
-
->    GPUNIDS [Options]                                           
->                                                                
->Options:                                                        
->                                                                
-> -o <file> = Offline capture a PCAP file                        
-> -r <file> = Rules file                                         
-> -b <num>  = Buffer size (B) in bytes to transfer between CPU-GPU   
-> -d <num>  = Buffer delay (ms) limit.                                
-> -f <text> = Filter capture of libPCAP. See https://www.tcpdump.org/manpages/pcap-filter.7.html   
-> -n <num>  = Number of packets to be captured. -1 will capture at infinite loop. 
-> -t <num>  = Number of thread of Thread Pool                    
-> -i <text> = Network Interface Card (NIC)                       
-> -p <char> = Processing hardware. P - GPU | S - CPU             
-> -l <num>  = timeout in seconds to finalize a real time capture after the last packet received
-> -h        = print help                                         
+~~~~
+    GPUNIDS [Options]                                           
+                                                                
+Options:                                                        
+                                                                
+ -o <file> = Offline capture a PCAP file                        
+ -r <file> = Rules file                                         
+ -b <num>  = Buffer size (B) in bytes to transfer between CPU-GPU   
+ -d <num>  = Buffer delay (ms) limit.                                
+ -f <text> = Filter capture of libPCAP. See https://www.tcpdump.org/manpages/pcap-filter.7.html   
+ -n <num>  = Number of packets to be captured. -1 will capture at infinite loop. 
+ -t <num>  = Number of thread of Thread Pool                    
+ -i <text> = Network Interface Card (NIC)                       
+ -p <char> = Processing hardware. P - GPU | S - CPU             
+ -l <num>  = timeout in seconds to finalize a real time capture after the last packet received
+ -h        = print help                                         
+~~~~
 
 Example:
 
