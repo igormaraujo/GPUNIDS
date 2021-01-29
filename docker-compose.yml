@@ -1,0 +1,7 @@
+version: '2.3'
+services:
+  cuda:
+    build: .
+    runtime: nvidia
+    volumes:
+     - ./../:/cudaworkspace
